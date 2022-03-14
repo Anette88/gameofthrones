@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game</title>
+	<link href='css/style.css' rel='stylesheet' />
+	<link rel='icon' href='data:;base64,=' />
+</head>
+
+<body>
+	<h3>Game of Thrones boardgame</h3>
+	<p>The player who finishes this board first is the winner. </br>
+		But look out for several traps in the game that will slow you down! </br>
+		If you roll a six, it is your turn again </p>
+	<div class="users">
+		<div class="user">
+			<button onclick="rollDice()" class="player1">Player 1 Roll Dice</button>
+			<img id="playeronetoken">
+		</div>
+		<div class="user">
+			<button onclick="rollDice()" class="player2" disabled>Player 2 Roll Dice</button>
+			<img id="playertwotoken">
+		</div>
+	</div>
+
+	<p id="number"></p>
+	<img id="diceValue">
+	<div class="circles"></div>
+	<script src="js/script2.js"></script>
+</body>
+
+</html>

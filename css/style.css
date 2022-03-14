@@ -1,0 +1,123 @@
+body {
+	background-color: #C6AF9C;
+	width:1000px;
+
+}
+
+.circles {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 5px solid #7C6E62;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1em;
+	background-color: #A686AF;
+}
+
+#Circle7, #Circle15, #Circle28 {
+
+	background-color: #73636D;
+}
+
+#Circle4, #Circle8 , #Circle19 {
+	background-color: #8C6175;
+}
+
+.card {
+	border: 1px solid black;
+	width: 25%;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+.token {
+	height: 80px;
+	margin: 0;
+	padding: 0;
+}
+
+button.player1:disabled,
+button.player2:disabled {
+	background: grey;
+	color: white;
+	opacity: 0.3;
+}
+
+button.player2,
+button.player1 {
+	background: #8C6175;
+	color: white;
+	width: 200px;
+	height: 50px;
+	margin: 10px;
+}
+
+.token1,
+.token2 {
+	height: 100px;
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background: url("../tokens/Arya.png");
+	background-size: cover;
+}
+
+.token2 {
+	background: url("../tokens/Tormund.png");
+	background-size: cover;
+}
+
+#diceValue {
+	width: 50px;
+}
+
+#playeronetoken,
+#playertwotoken {
+	max-width: 40%;
+}
+.users {
+	overflow: hidden;
+}
+.user {
+
+	padding: 10px;
+	margin: 5px auto;
+	max-width: 40%;
+	float: left;
+}
+
+h3 {
+	color: #8C6175;
+	font-size: 30px;
+	font-family: 'Redressed', sans-serif;
+	text-align: center;
+	margin: 40px;
+}
+
+p {
+	color: #8C6175;
+	font-size: 30px;
+	font-family: 'Redressed', sans-serif;
+	text-align: center;
+	margin: 40px;
+}
+
+@font-face {
+    font-family: 'ArchitectsDaughter';
+    src: url('ArchitectsDaughter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game</title>
+	<link href='css/choosetoken.css' rel='stylesheet' />
+	<link rel='icon' href='data:;base64,=' />
+</head>
+
+<body>
+	<header>
+		<h1> GAME OF THRONES </h1>
+		<h2> Choose your character and play this awesome game! With one of your friends </h2>
+
+	</header>
+	<div class="cards">
+		<div class="card">
+			<img class="token" id="tormund" alt="Tormund, Game of Thrones" src="tokens/tormund.png"/>
+			<div class="container" id="TormundCard">
+				<h4>Tormund</h4>
+				<p>Tormund, renowned warrior and raider among the Free Folk.</p>
+				<button onclick="chooseCharacter('Tormund')" class="button1">SELECT PLAYER</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="token" id="ramsay" alt="Ramsay, Game of Thrones" src="tokens/ramsay.png"/>
+			<div class="container" id="RamsayCard">
+				<h4>Ramsay</h4>
+				<p>Ramsay Snow is the bastard son of Roose Bolton.</p>
+				<button onclick="chooseCharacter('Ramsay')" class="button1">SELECT PLAYER</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="token" id="arya" alt="Arya, Game of Thrones" src="tokens/arya.png"/>
+			<div class="container">
+				<h4>Arya</h4>
+				<p>Princess Arya Stark is the second daughter of Lord Eddard Stark and Lady Catelyn Stark.</p>
+				<button onclick="chooseCharacter('Arya')" class="button1">SELECT PLAYER</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="token" id="brienne" alt="Brienne, Game of Thrones" src="tokens/brienne.png"/>
+			<div class="container">
+				<h4>Brienne</h4>
+				<p>Ser Brienne of Tarth is a knight of House Tarth and the only daughter of Lord Selwyn Tarth.</p>
+				<button onclick="chooseCharacter('Brienne')" class="button1">SELECT PLAYER</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="token" id="daenerys" alt="Daenerys, Game of Thrones" src="tokens/daenerys.png"/>
+			<div class="container">
+				<h4>Daenerys</h4>
+				<p>Queen Daenerys I Targaryen, Queen of the Andals and the First Men and ruler of the Seven Kingdoms.</p>
+				<button onclick="chooseCharacter('Daenerys')" class="button1">SELECT PLAYER</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="token" id="tyrion" alt="Tyrion, Game of Thrones" src="tokens/tyrion.png"/>
+			<div class="container">
+				<h4>Tyrion</h4>
+				<p>Lord Tyrion Lannister is the youngest child of Lord Tywin Lannister.</p>
+				<button onclick="chooseCharacter('Tyrion')" class="button1">SELECT PLAYER</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="token" id="samwell" alt="Samwell, Game of Thrones" src="tokens/samwell.png"/>
+			<div class="container">
+				<h4>Samwell</h4>
+				<p>Samwell, born Samwell Tarly, the eldest son of Lord Randyll Tarly and Lady Melessa Tarly.</p>
+				<button onclick="chooseCharacter('Samwell')" class="button1">SELECT PLAYER</button>
+			</div>
+		</div>
+	</div>
+	<script src="js/scriptIndex.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+body {
+	background-color: #C6AF9C;
+	width:1000px;
+}
+
+h2 {
+	font-family: 'Redressed', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Redressed', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+#Winner {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@font-face {
+    font-family: 'Redressed';
+    src: url('Redressed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+button {
+	font-family: 'SyneTactile', sans-serif;
+	font-size: 30px;
+	margin: 20px;
+	border: 1px solid black;
+	background-color: #F2F2F2;
+	color: black;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+	border-radius: 5px;
+}
+button:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	background-color: #73636D;
+	color: white;
+}
+
+@font-face {
+    font-family: 'Redressed';
+    src: url('Redressed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'SyneTactile';
+    src: url('SyneTactile-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
